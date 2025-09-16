@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+         <a class="brand" href="#top" aria-label="Go to top">VS</a>
         <nav class="site-nav" id="primary-navigation">
         <ul>
           <li><a href="#about">About</a></li>
@@ -20,17 +21,80 @@
     </header>
     
     <main>
-        <section class="hero-section">
+        <section class="hero-section section">
             <div class="hero-content">
                 <p class="eyebrow">Hello, I'm</p>
                 <h1>Vishwajeet Singh</h1>
                 <p class="lead">I build modern, responsive websites and delightful user experiences.</p>
                 <p>Discover my projects and skills.</p>
                 <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a class="btn btn-ghost" href="#contact">Get in Touch</a>
             </div>
+        </section>
+
+        <section id="about" class="about-section section">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I am a passionate web developer with experience in creating responsive websites. I love turning ideas into reality using code.
+                    <br>
+                    My journey in web development began with a simple HTML page. Since then, I have learned many skills in various technologies like HTML, CSS and JS.
+                </p>
+                <p>When I'm not coding, I enjoy hiking, photography, and exploring new technologies.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Basics of JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Git & GitHub</li>
+                <li>C language</li>
+            </ul>
 
         </section>
+
+        <section id="projects" class="projects-section section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website to showcase my projects and skills.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Responsive Blog</h3>
+                    <p>A blog platform with a responsive design and user-friendly interface.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>E-commerce Site</h3>
+                    <p>An e-commerce website with product listings, shopping cart, and checkout features.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="footer-section section">
+            <h2>Contact Me</h2>
+            <p>If you'd like to work together or have any questions, feel free to reach out!</p>
+            <p>Email: <a href="mailto:vishwajeet24154067@akgec.ac.in">vishwajeet24154067@akgec.ac.in</a></p>
+        </section>
     </main>
+
+    
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Vishwajeet Singh. All rights reserved.</p>
+      <div class="socials">
+        <a href="https://github.com/vishwajeet24154067" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/vishwajeet24154067/" aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://twitter.com/vishwajeet24154067" aria-label="Twitter">Twitter</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>

@@ -23,6 +23,7 @@ header {
     display: flex;
     padding: 20px;
     text-align: center;
+    position: sticky;
 }
 
 #primary-navigation ul {

@@ -306,6 +306,11 @@ footer a {
     .project-card {
         margin-bottom: 18px;
     }
+    .message{
+        max-width: 300px;
+        min-height: 100px;
+        max-height: 300px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -360,7 +365,14 @@ footer a {
         padding: 12px 4px;
         font-size: 12px;
     }
+.message{
+ min-height: 100px;
+ max-height: 300px;
+ resize: none;
+ outline: none;
+ max-width: 100px;
+
+
+
 }
-.textarea{
-  resize: none;
 }

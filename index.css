@@ -365,14 +365,14 @@ footer a {
         padding: 12px 4px;
         font-size: 12px;
     }
-.message{
- min-height: 100px;
- max-height: 300px;
- resize: none;
- outline: none;
- max-width: 100px;
-
-
-
+    .form-row textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #374151;
+    border-radius: 5px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    outline: none;
+    resize: none;
 }
 }
